@@ -1,0 +1,15 @@
+### Test the /echo endpoint
+POST http://127.0.0.1:5000/echo
+Content-Type: application/json
+
+{
+  "key": "value"
+}
+
+### Test the /algorithm endpoint
+POST http://127.0.0.1:5000/algorithm
+Content-Type: application/json
+
+{
+  "algorithm": "Dijkstra"
+}
